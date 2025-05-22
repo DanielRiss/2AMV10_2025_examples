@@ -66,26 +66,6 @@ Then open [http://127.0.0.1:8050](http://127.0.0.1:8050) in your browser.
 
 ---
 
-## 🛠 Adapting the Template to Your Own Project
-
-1. **Replace the dataset**
-   Drop your own `.csv` or `.xlsx` files in the `data/` folder and update the file paths in `app.py`.
-
-2. **Adjust KPI logic**
-   Edit `src/const.py` to reflect the key metrics from your new data.
-
-3. **Update visuals per tab**
-   Modify `src/dash1.py` to `src/dash4.py` to generate charts using your new columns.
-   If needed, add new tab modules and link them in `app.py`.
-
-4. **Keep or remove recommendation**
-   If you don’t need it, delete the related callbacks and dropdowns. Otherwise, update the similarity logic in the `movie-dropdown` and `series-dropdown` callbacks.
-
-5. **Customize the design**
-   Swap out the icons in `assets/`, or optionally add a `style.css` to the same folder for custom fonts/colors.
-
----
-
 ## ✅ Credits & Attribution
 
 This template is based on [Mahmoud2227/IMDB-Dashboard](https://github.com/Mahmoud2227/IMDB-Dashboard), simplified and expanded with educational material.
