@@ -98,7 +98,6 @@ def wrap_figures(figures) -> html.Div:
 # Dash app
 # ──────────────────────────────────────────────────────────────────────────────
 app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP], title="IMDB Data Analysis Dashboard")
-server = app.server  # Expose for production (e.g., gunicorn)
 
 app.layout = html.Div(
     [
