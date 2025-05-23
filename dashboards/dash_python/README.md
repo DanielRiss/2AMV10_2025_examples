@@ -1,3 +1,7 @@
+Here’s your revised README with the notebook list and descriptions updated to reflect that there are now **three** notebooks:
+
+---
+
 # Dash Python – IMDb Dashboard (Template & Tutorial)
 
 This folder contains a **structured Dash application** inspired by the [IMDb Dashboard](https://github.com/Mahmoud2227/IMDB-Dashboard), reworked to serve as a **teaching template** for the 2AMV10 Visual Analytics course.
@@ -34,16 +38,12 @@ dash_python/
 
 Instead of reading through long scripts, you’ll learn by stepping through structured Jupyter notebooks in the `notebooks/` folder:
 
-| Notebook                              | Description                                                 |
-| ------------------------------------- | ----------------------------------------------------------- |
-| `00_dashboard_intro.ipynb`            | What this dashboard does, and how the components connect    |
-| `01_layout_structure.ipynb`           | How the layout is built with Dash + Bootstrap               |
-| `02_helper_functions.ipynb`           | Why and how we use helpers (e.g. KPI cards)                 |
-| `03_tabs_and_callbacks.ipynb`         | How to switch between tabs and load dynamic content         |
-| `04_visualization_helpers.ipynb`      | How each tab generates its graphs from data                 |
-| `05_constants_and_data_loading.ipynb` | How the KPI values are calculated from data                 |
-| `06_customization_tips.ipynb`         | How to tweak icons, styles, and layout for your own project |
-| `07_deploying_and_adapting.ipynb`     | How to run the dashboard and adapt it to a new dataset      |
+| Notebook                      | Description                                                                                   |
+| ----------------------------- | --------------------------------------------------------------------------------------------- |
+| `00_project_startup.ipynb`    | How we load the data, compute KPIs, use helper functions, and define shared styles            |
+| `01_layout_structure.ipynb`   | How we structure the layout using Dash & Bootstrap, and connect it to tab-based callback logic |
+| `02_visualization_builders.ipynb` | How each tab’s graphs are generated using Plotly in `dash1.py`–`dash4.py` modules             |
+
 
 Each notebook includes:
 
@@ -69,8 +69,6 @@ Then open [http://127.0.0.1:8050](http://127.0.0.1:8050) in your browser.
 ## ✅ Credits & Attribution
 
 This template is based on [Mahmoud2227/IMDB-Dashboard](https://github.com/Mahmoud2227/IMDB-Dashboard), simplified and expanded with educational material.
-
-Licensed for educational use in 2AMV10 – Visual Analytics.
 
 ---
 
