@@ -1,7 +1,3 @@
-Here’s your revised README with the notebook list and descriptions updated to reflect that there are now **three** notebooks:
-
----
-
 # Dash Python – IMDb Dashboard (Template & Tutorial)
 
 This folder contains a **structured Dash application** inspired by the [IMDb Dashboard](https://github.com/Mahmoud2227/IMDB-Dashboard), reworked to serve as a **teaching template** for the 2AMV10 Visual Analytics course.
@@ -34,7 +30,7 @@ dash_python/
 
 ---
 
-## 🧠 Learning Through Notebooks
+## Learning Through Notebooks
 
 Instead of reading through long scripts, you’ll learn by stepping through structured Jupyter notebooks in the `notebooks/` folder:
 
@@ -42,7 +38,7 @@ Instead of reading through long scripts, you’ll learn by stepping through stru
 | ----------------------------- | --------------------------------------------------------------------------------------------- |
 | `00_project_startup.ipynb`    | How we load the data, compute KPIs, use helper functions, and define shared styles            |
 | `01_layout_structure.ipynb`   | How we structure the layout using Dash & Bootstrap, and connect it to tab-based callback logic |
-| `02_visualization_builders.ipynb` | How each tab’s graphs are generated using Plotly in `dash1.py`–`dash4.py` modules             |
+| `02_building_viz_functinos.ipynb` | How each tab’s graphs are generated using Plotly in `dash1.py`–`dash4.py` modules             |
 
 
 Each notebook includes:
@@ -53,7 +49,7 @@ Each notebook includes:
 
 ---
 
-## 🚀 Running the Dashboard
+## Running the Dashboard
 
 After exploring the notebooks, you can launch the working dashboard like this:
 
@@ -66,12 +62,12 @@ Then open [http://127.0.0.1:8050](http://127.0.0.1:8050) in your browser.
 
 ---
 
-## ✅ Credits & Attribution
+## Credits & Attribution
 
 This template is based on [Mahmoud2227/IMDB-Dashboard](https://github.com/Mahmoud2227/IMDB-Dashboard), simplified and expanded with educational material.
 
 ---
 
-## 👩‍💻 Contribute or Ask Questions
+##  Contribute or Ask Questions
 
 If something is unclear or you want extra examples, contact the student assistants: **Daniël Ris** or **Nora Bouwman**. You can also fork the repo and send improvement suggestions.
