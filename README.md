@@ -7,9 +7,7 @@ This repository provides examples for setting up your front-end visualization da
 Examples of interactive dashboard implementations.
 
 - `dash_python/`: A simpler dashboard built with Plotly Dash in Python. Using Dash is perfectly fine and will work fine with almost all visualizations you want to include in your final project. However, if you would like to try your hand on a more advanced tool for creating dashboards, with a little more utility:
-
-Links to help set up a dashboard using a combination of other build tools.
-- `react_d3_flask/`:  A more complex setup using a React + Vite + TypeScript front-end with D3.js for visualizations, and a Flask back-end.
+- `react_d3_flask/`:  Links to help set up a dashboard using a combination of other build tools.
 
 ### `eda/`
 Data Cleaning and Exploratory Data Analysis examples using:
