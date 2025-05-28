@@ -9,12 +9,6 @@ Examples of interactive dashboard implementations.
 - `dash_python/`: A simpler dashboard built with Plotly Dash in Python. Using Dash is perfectly fine and will work fine with almost all visualizations you want to include in your final project. However, if you would like to try your hand on a more advanced tool for creating dashboards, with a little more utility:
 - `react_d3_flask/`:  Links to help set up a dashboard using a combination of other build tools.
 
-### `eda/ _(coming soon, work in progress!)_`
-Data Cleaning and Exploratory Data Analysis examples using:
-- `pandas` and `numpy` for data manipulation
-- `matplotlib` and `seaborn` for visualization
-This part is essential for cleaning your dataset and finding out interesting patterns in the data to visualize in your dashboard. It could also give you a good idea of machine learning methods from variables you want to explore further or predict.
-
 ### `machine_learning/ _(coming soon, work in progress!)_`
 Machine learning pipelines and interpretability tools:
 - `torch_model.py`: A basic model implementation using PyTorch
